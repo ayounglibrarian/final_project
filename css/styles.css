@@ -67,8 +67,6 @@ body {
   border-bottom-color: #4e9cb7; }
 
 @media (min-width: 48em) {
-  .masthead-brand {
-    float: left; }
   .nav-masthead {
     float: right; } }
 
