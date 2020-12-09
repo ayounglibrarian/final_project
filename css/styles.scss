@@ -132,7 +132,6 @@ body {
 }
 
 
-
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -165,6 +164,10 @@ body {
     font-weight: 300;
     text-align-last: left;
 	}
+
+  #logo png {
+    width: 100%
+  }
 
   @media screen and (max-width: 600px) {
   .column {
