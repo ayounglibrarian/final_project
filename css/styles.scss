@@ -69,7 +69,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: #4e9cb7;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -154,6 +154,12 @@ body {
 		font-weight: 600;
 }
 
+.h4, h4 {
+    font-size: 1rem;
+    color: #4e9cb7;
+		font-weight: 600;
+}
+
 .lead {
     font-size: .75rem;
     font-weight: 300;
@@ -163,3 +169,4 @@ body {
   @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+} }
