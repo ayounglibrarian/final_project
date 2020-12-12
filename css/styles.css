@@ -135,34 +135,21 @@ body {
   width: 100%; }
 
 /* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary {
-    width: 67%; }
-  #secondary {
-    width: 30%;
-    margin-left: 3%; } }
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary {
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%; }
-  #secondary {
-    width: 100%;
-    margin: 0;
-    border: none; } }
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden; }
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+    .column .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden; }
+    .column .video-container iframe,
+    .column .video-container object,
+    .column .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; } }
