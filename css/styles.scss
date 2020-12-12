@@ -169,6 +169,12 @@ body {
     width: 100%
   }
 
+  .container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+
 
 //   @media screen and (max-width: 600px) {
 //   .column {
