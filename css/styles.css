@@ -137,6 +137,9 @@ body {
 #brianwithtrees jpg {
   width: 100%; }
 
+.text {
+  word-wrap: break-word; }
+
 /* Media Queries: Tablet Landscape */
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
