@@ -97,7 +97,6 @@ body {
   color: #4e9cb7; }
 
 .column {
-  float: left;
   width: 50%; }
 
 /* Clear floats after the columns */
@@ -137,6 +136,10 @@ body {
 
 #brianwithtrees jpg {
   width: 100%; }
+
+.card {
+  background-color: #f4ebda;
+  border: transparent; }
 
 /* Media Queries: Tablet Landscape */
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
