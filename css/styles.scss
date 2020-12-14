@@ -79,17 +79,15 @@ body {
 .nav-masthead .active {
 	color: #4e9cb7;
 	border-bottom-color: #4e9cb7;
-
 }
 
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
-  }
+  } }
   .nav-masthead {
     float: right;
   }
-}
 
 
 /*
@@ -173,9 +171,7 @@ body {
     width: 100%
   }
 
-  .text {
-  word-wrap: break-word;
-}
+
 
 //   @media screen and (max-width: 600px) {
 //   .column {
@@ -204,19 +200,19 @@ body {
     and (device-width : 375px)
     and (device-height : 667px)
     and (-webkit-device-pixel-ratio : 2)
-    and (orientation : portrait) { }
+    and (orientation : landscape) { }
 
 @media only screen
     and (device-width : 375px)
     and (device-height : 812px)
     and (-webkit-device-pixel-ratio : 3)
-    and (orientation : portrait) { }
+    and (orientation : landscape) { }
 
 @media only screen
     and (device-width : 414px)
     and (device-height : 736px)
     and (-webkit-device-pixel-ratio : 3)
-    and (orientation : portrait) { }
+    and (orientation : landscape) { }
 
 .video-container {
 	position: relative;
